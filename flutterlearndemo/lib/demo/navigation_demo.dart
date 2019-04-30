@@ -8,20 +8,8 @@ class BottomNavigationDemo extends StatefulWidget {
 class _BottomNavigationDemoState extends State<BottomNavigationDemo> {
 
   int _cuttentIndex = 0;
-
-
+  
   void _onTaphandler(int index){
-
-    String a; 
-    String b = "java"; 
-    String c = a ?? b; //a为空的时候打印b，a不为空是打印a 
-    print(c); 
-    
-    a = "huang"; 
-    b = "java"; 
-    c = a ?? b; 
-    print(c);
-
 
     setState(() {
           _cuttentIndex = index;
